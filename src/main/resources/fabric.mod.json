@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "enderbag",
+  "version": "${version}",
+  "name": "Ender Bag",
+  "description": "Adds the Ender Bag item – a portable Ender Chest.",
+  "authors": ["L1nar"],
+  "contact": {
+  "homepage": "https://t.me/L1nar_dev",
+  "sources": "https://github.com/L1nar-dev"
+},
+  "license": "MIT",
+  "icon": "assets/enderbag/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderbag.EnderBagMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
